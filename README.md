@@ -1,4 +1,4 @@
-# Project Title
+# Today Eat What
 
 > Help to choose where to eat (#codeIsLife)
 
