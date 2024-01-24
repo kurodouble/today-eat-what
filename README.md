@@ -29,5 +29,9 @@
    ```
 3. Make exe file using PyInstaller (For single python script)
    ```bash
-   pyinstaller --onefile --name [OUTPUT_NAME] --icon=[ICON_FILE_NAME] --distpath=[OUTPUT_DIRECTORY] [SCRIPT_FILE].py
+   pyinstaller --onefile --name [OUTPUT_NAME] --icon [ICON_FILE_NAME] --distpath [OUTPUT_DIRECTORY] [SCRIPT_FILE].py
+   ```
+   Example
+   ```bash
+   pyinstaller --onefile --name WhereToEat --icon app.ico --distpath= ./exe-folder getLocation.py
    ```
