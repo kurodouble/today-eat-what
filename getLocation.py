@@ -4,7 +4,7 @@ import firebase_admin
 from firebase_admin import credentials, firestore
 
 # Initialize Firestore
-cred = credentials.Certificate('firebaseKey.json')
+cred = credentials.Certificate("D:/HimaTsubushi/firebaseKey.json") #change this to actual json path
 firebase_admin.initialize_app(cred)
 db = firestore.client()
 
